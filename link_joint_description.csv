@@ -1,0 +1,11 @@
+description,link1,link2,joint1,joint2
+"""a 2-link arm, both links 10cm""",0.1,0.1,revolute,revolute
+"""a single rigid link of 20cm""",0.2,0,fixed,-
+"""two arms, one 15cm, one 5cm""",0.15,0.05,revolute,revolute
+"""a sliding joint with a 10cm link""",0.1,0,prismatic,-
+"""an elbow robot with 25cm and 10cm""",0.25,0.1,revolute,revolute
+a telescopic arm that extends 30cm,0.3,0,prismatic,-
+a short arm of 5cm with a hinge joint,0.05,0,revolute,-
+"two equal arms, each 20cm, sliding joints",0.2,0.2,prismatic,prismatic
+a rigid frame of 40cm,0.4,0,fixed,-
+an arm with 10cm and 15cm hinged links,0.1,0.15,revolute,revolute
