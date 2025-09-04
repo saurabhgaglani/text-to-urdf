@@ -5,12 +5,15 @@
 
 ---
 
-## Why this exists
-Robotics specs are often written for humans (text, diagrams). Simulators (ROS/Gazebo/RViz) need **structured robot models** (e.g., URDF). This repo shows a minimal bridge:
-
-**Text → (TF-IDF + simple ML) → Structured specs → URDF**
-
+## How to run
+```
+pip install -r requirements.txt
+python3 twin.py
+```
 ---
+
+
+
 
 ## What this generates (URDF)
 URDF (Unified Robot Description Format) is an XML schema used by ROS/Gazebo/RViz to describe a robot’s kinematic structure.
